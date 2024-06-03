@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-80</Value>
+								<Value>-710</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
