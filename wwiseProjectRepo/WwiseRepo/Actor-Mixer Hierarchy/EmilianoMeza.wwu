@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{70D554E9-8531-493D-A777-7120AEA7E91D}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="EmilianoMeza" ID="{70D554E9-8531-493D-A777-7120AEA7E91D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="EMM" ID="{7AE3EDD6-BAFE-414C-886A-E5101C02A332}" ShortID="585034971">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-80</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bloom 3" ID="{E5924D65-A637-44F6-966D-D84D580420B7}">
+							<Language>SFX</Language>
+							<AudioFile>Bloom 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="670645539"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bloom 3" ID="{E5924D65-A637-44F6-966D-D84D580420B7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
