@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A6D1B95-4102-42CF-BD4F-48C8E9F992C5}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Mario" ID="{5A6D1B95-4102-42CF-BD4F-48C8E9F992C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Guitarra" ID="{B074F19F-E4A0-4B20-B24D-CDB31B4B2CDB}" ShortID="745939734">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND51004"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717435303wU0efOlfieDwHQKyL6m&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND51004/sfy_xMBPYpaMPKRqXqIjkLCYgWaMsDDGlp"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="19.0681875"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/joeypoint/Documents/Soundly Audio/Musical, Plucked, Guitar, Electric OD, Amplified, Pick Down The E-String, Overdrive Guitar, Drop D Tuning SND51004.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Musical, Plucked, Guitar, Electric OD, Amplified, Pick Down The E-String, Overdrive Guitar, Drop D Tuning SND51004" ID="{A469E3E7-F720-4AA7-AFD0-1D420E3BB7A0}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND51004"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Musical, Plucked, Guitar, Electric OD, Amplified, Pick Down The E-String, Overdrive Guitar, Drop D Tuning SND51004.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="861815010"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Musical, Plucked, Guitar, Electric OD, Amplified, Pick Down The E-String, Overdrive Guitar, Drop D Tuning SND51004" ID="{A469E3E7-F720-4AA7-AFD0-1D420E3BB7A0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
