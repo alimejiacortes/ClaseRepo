@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FEE97E43-3BB6-4386-A213-B1EE74E832A9}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Rodrigovelasco" ID="{FEE97E43-3BB6-4386-A213-B1EE74E832A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="holy_amb_06_3" ID="{80374829-7511-484C-B809-23DE853D1AE8}" ShortID="875559797">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="holy_amb_06_3" ID="{A71FC7D5-1E05-41EF-9E92-914D736FCD9F}">
+							<Language>SFX</Language>
+							<AudioFile>holy_amb_06_3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="608431402"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="holy_amb_06_3" ID="{A71FC7D5-1E05-41EF-9E92-914D736FCD9F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
