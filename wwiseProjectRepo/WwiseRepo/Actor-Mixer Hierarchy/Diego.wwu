@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{15E90649-8149-41F0-8396-E3ACA4933673}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Diego" ID="{15E90649-8149-41F0-8396-E3ACA4933673}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Amb" ID="{055D7F40-0FA8-4949-B01F-C9BA748C23E2}" ShortID="1061273079">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND0017"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717435248ZD_YbkpMeiQIPg_6rt&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND0017/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVwT3Fvemx2NlR2X2pFQXY5ZTZUZERNdGk2cEx0WkIxX2FXdUVDcXNmZnpHRnliNDh6UTZWTUtPN1hUdXRCbmN4cmU3cWZka0VONFJUWklKTEd2REVUMEd1dTZzUS54U216ZjljZFBzUndGeVhD"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="8.499927083333333"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/diegosanchez/Documents/Soundly Audio/Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.6139464431680174"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{82D7B50E-8107-403A-AB8B-B371EDB5B537}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND0017"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.2185"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="787260913"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{82D7B50E-8107-403A-AB8B-B371EDB5B537}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
